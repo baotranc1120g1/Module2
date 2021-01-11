@@ -33,3 +33,4 @@ public class hienthi20snt {
         }
     }
 }
+// Nhập vào n = 20;
