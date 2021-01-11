@@ -9,9 +9,9 @@ public class sntnhohon100 {
         if (n >= 2) {
             System.out.print(2);
         }
-        /* gọi hàm checkPrimeNumber trong if với tham số truyền vào là các số bắt đầu từ 3 nhỏ hơn 100 qua vòng lặp để kiểm tra có là số nguyên tố.
+        /* gọi phương thứccheckPrimeNumber trong if với tham số truyền vào là các số bắt đầu từ 3 nhỏ hơn 100 qua vòng lặp để kiểm tra có là số nguyên tố.
          * +2 sau mỗi lần lặp để xác định số cần tìm là số lẻ.
-         * hàm checkPrimeNumber trả về true or false.
+         * phương thức checkPrimeNumber trả về true or false.
          */
 
         for (int i = 3; i < n; i+=2) {
@@ -20,7 +20,7 @@ public class sntnhohon100 {
             }
         }
     }
-    // hàm check các số nguyên tố
+    // phương thức check số nguyên tố
     public static boolean checkPrimeNumber(int n) {
         if (n < 2) {
             return false;
