@@ -10,11 +10,11 @@ public class QuadraticEquation {
     }
 
     public double getRoot1() {
-        return (-b - Math.sqrt(this.getDiscriminant())) / (2 * a);
+        return (-this.b - Math.sqrt(this.getDiscriminant())) / (2 * this.a);
     }
 
     public double getRoot2() {
-        return (-b + Math.sqrt(this.getDiscriminant())) / (2 * a);
+        return (-this.b + Math.sqrt(this.getDiscriminant())) / (2 * this.a);
     }
 
     public double getDiscriminant() {
