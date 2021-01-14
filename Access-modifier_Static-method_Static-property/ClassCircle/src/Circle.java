@@ -10,7 +10,7 @@ public class Circle {
 
     }
 
-    private double getRadius() {
+    public double getRadius() {
         return this.radius;
     }
 
