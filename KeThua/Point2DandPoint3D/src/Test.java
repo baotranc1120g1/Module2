@@ -12,6 +12,7 @@ public class Test {
         Point moveablePoint3 = new MoveablePoint();
         moveablePoint3.setX(8);
         moveablePoint3.setY(9);
+        System.out.println(moveablePoint3);
 
         Point3D point3D1 = new Point3D();
         point3D1.setXYZ(4,2,0);
