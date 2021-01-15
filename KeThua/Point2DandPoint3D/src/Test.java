@@ -9,6 +9,9 @@ public class Test {
 
         Point3D point3D = new Point3D(1,2,3);
         System.out.println(point3D);
+        Point moveablePoint3 = new MoveablePoint();
+        moveablePoint3.setX(8);
+        moveablePoint3.setY(9);
 
         Point3D point3D1 = new Point3D();
         point3D1.setXYZ(4,2,0);
