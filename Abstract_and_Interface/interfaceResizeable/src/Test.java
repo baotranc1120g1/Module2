@@ -9,18 +9,18 @@ public class Test {
         System.out.println("Ban dau Circle width = " + circle.getRadius());
         percent = Math.random();
         circle.resize(percent);
+        System.out.println("After Circle width = " + circle.getRadius());
+
 
         System.out.println("Ban dau Rectangle width: " + rectangle.getWidth() + "/" + "length" + rectangle.getLength());
         percent = Math.random();
         rectangle.resize(percent);
+        System.out.println("After Rectangle width = " + rectangle.getWidth() + "/" + "length = " + rectangle.getLength());
+
 
         System.out.println("Ban dau Square width: " + square.getWidth() + "/" + "length" + square.getLength());
         percent = Math.random();
         square.resize(percent);
-
-        System.out.println("After Circle width = " + circle.getRadius());
-        System.out.println("After Rectangle width = " + rectangle.getWidth() + "/" + "length = " + rectangle.getLength());
         System.out.println("After Square width = " + square.getWidth() + "/" + "length = " + square.getLength());
-
     }
 }
