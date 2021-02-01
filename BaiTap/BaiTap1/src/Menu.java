@@ -10,7 +10,7 @@ public class Menu {
         int choice = 0;
         do {
             try {
-                System.out.println("/*---------------------------------------------*/\n1 - Thêm khách\n2 - Trả phòng\n3 - Hiển thị thông tin khách trọ\n4 - Đổi phòng\n5 - Thoát");
+                System.out.println("n1 - Thêm khách\n2 - Trả phòng\n3 - Hiển thị thông tin khách trọ\n4 - Đổi phòng\n5 - Thoát");
                 choice = Integer.parseInt(sc.nextLine());
                 switch (choice) {
                     case 1:
